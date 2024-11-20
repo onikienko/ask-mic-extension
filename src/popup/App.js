@@ -5,8 +5,18 @@ export const App = () => {
     return (
         <>
             <img src={logo} alt="Logo"/>
-            <h1>Popup Window</h1>
-            <div>v{chrome.runtime.getManifest().version}</div>
+            <h1
+                onClick={() => {
+                    chrome.windows.create({
+                        width: 500,
+                        height: 500,
+                        type: 'panel',
+                        url: chrome.runtime.getURL('recorder/recorder.html'),
+                    })
+                }}
+            >
+                Record Mic
+            </h1>
         </>
     );
 };

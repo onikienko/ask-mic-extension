@@ -1,19 +1,4 @@
-# mv3-parcel-webext-template
-
-Chrome Extension boilerplate for manifest v3.
-<img align="right" width="128" src="src/images/icon256.png">
-
-This template uses [Parcel Web Extension Config](https://parceljs.org/recipes/web-extension/)
-and [release-it](https://github.com/release-it/release-it) for GitHub releases.
-
-## How to use
-
-- Click [<kbd>Use this template</kbd>](https://github.com/onikienko/mv3-parcel-webext-template/generate) button on the top of the page.
-- After project initialization, change the `name` field in the `package.json` file. This field will be used as a name
-  for `.zip` with production build.
-- Update `repository`, `author`, `bugs`, `license`, and `homepage` props in `package.json` according to your needs.
-- There is configured [Dependabot version updates](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/about-dependabot-version-updates).
-  If you do not want PRs with your dependency version updates, remove the `.github/dependabot.yml` file.
+# mic-extension-demo
 
 ### Development:
 
